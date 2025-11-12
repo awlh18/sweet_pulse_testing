@@ -1,0 +1,8 @@
+day_of_week,soft_serve_sales,y_pred,prediction_error,error_percentage
+Monday,1702.47,1833.35,130.88,0.077
+Tuesday,1460.5,1546.9,86.4,0.059
+Wednesday,1375.59,1527.03,151.44,0.11
+Thursday,1378.16,1639.41,261.25,0.19
+Friday,1823.44,2088.6,265.16,0.145
+Saturday,2526.54,2679.02,152.48,0.06
+Sunday,2256.81,2554.4,297.58,0.132

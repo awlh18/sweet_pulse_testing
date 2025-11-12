@@ -1,0 +1,8 @@
+day_of_week,net_sales_normalized,y_pred,prediction_error,error_percentage
+Monday,3800.18,3356.74,-443.44,-0.117
+Tuesday,3176.53,2834.35,-342.18,-0.108
+Wednesday,3275.37,2895.75,-379.62,-0.116
+Thursday,2955.89,2970.59,14.7,0.005
+Friday,4266.85,4076.68,-190.17,-0.045
+Saturday,5395.16,5252.76,-142.4,-0.026
+Sunday,5024.69,4904.77,-119.92,-0.024

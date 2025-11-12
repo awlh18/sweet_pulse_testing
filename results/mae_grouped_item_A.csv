@@ -1,0 +1,8 @@
+day_of_week,taiyaki_sales,y_pred,prediction_error,error_percentage
+Monday,1269.79,1132.28,-137.51,-0.108
+Tuesday,1123.38,984.7,-138.68,-0.123
+Wednesday,1278.86,1032.78,-246.07,-0.192
+Thursday,1021.62,995.45,-26.17,-0.026
+Friday,1605.01,1498.44,-106.56,-0.066
+Saturday,1750.59,1949.76,199.17,0.114
+Sunday,1725.68,1770.21,44.53,0.026

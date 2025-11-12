@@ -1,0 +1,15 @@
+[theme]
+backgroundColor="#ffedd4"
+secondaryBackgroundColor="#FFE0B2"
+textColor="#0D47A1"
+baseRadius="full"
+borderColor="1e2939"
+font="sans serif"
+
+[theme.sidebar]
+baseRadius="full"
+borderColor="1e2939"
+textColor="#0D47A1"
+
+[ui]
+hideTopBar = true
