@@ -82,27 +82,6 @@ data = {
 
 input_df = pd.DataFrame(data, index=[0])
 
-# loading in sales data for plots
-sales_df = pd.read_csv('data/processed/sales.csv', index_col=0, parse_dates=True)
-sales_df['sales_per_order'] = sales_df['net_sales_normalized'] / sales_df['in_store_orders']
-
-# define plotting functions 
-def make_line_graph(input_df, range, width=400, height=300): 
-    graph = px.line(
-        input_df.iloc[-range:,:], 
-        width=width,   # set width in pixels
-        height=height   # set height in pixels
-)
-    return graph
-
-def make_trend_graph(input_df, agg, width=400, height=300): 
-    graph = px.line(
-        input_df.resample(agg).mean().round(1),
-        width=width,
-        height=height
-    )
-    
-    return graph
 
 # show predictions
 
