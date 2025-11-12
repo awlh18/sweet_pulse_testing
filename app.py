@@ -10,5 +10,5 @@ diagnostics_item_A_page = st.Page("streamlit_pages/diagnostics_item_A.py", title
 diagnostics_item_B_page = st.Page("streamlit_pages/diagnostics_item_B.py", title="Model diagnostics - Soft serve Sales", icon=":material/monitor_heart:")
 diagnostics_orders_page = st.Page("streamlit_pages/diagnostics_orders.py", title="Model diagnostics - In Store Orders", icon=":material/monitor_heart:")
 
-pg = st.navigation({"Welcome to SweetPulse!":[forecasts_page, analytics_page]})
+pg = st.navigation({"Welcome to SweetPulse!":[forecasts_page, build_your_own_page ,analytics_page]})
 pg.run()
